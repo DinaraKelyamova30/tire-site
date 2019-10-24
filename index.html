@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>tire-site</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <header>
         <div class="header">
-            <div class="phone">
-                <img src="" alt="">
-                <p>(044)123-45-67 (044)567-89-10</p>
+            <div class="cell">
+                <div class="phone"></div>
+                <div class="text">
+                    <p>(044)123-45-67 (044)567-89-10</p>
+                </div>
             </div>
             <div class="search">
-                <img src="" alt="">
-                <span></span>
-                <span></span>
-                <p>вход | регистрация</p>
-                <p>забыли пароль?</p>
+                <img src="css/images/user.png" alt="user">
+                <input id="#" type="text" placeholder="логин">
+                <input id="#" type="text" placeholder="пароль">
+                <a href="#" class="enter">вход | регистрация</a>
+                <a href="#" for="forger-password" href="#" class="forget-password">забыли пароль?</a>
             </div>
             <div class="icons">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <a href="#"><img src="css/images/home.png" alt="home"></a>
+                <a href="#"><img src="css/images/map.png" alt="map"></a>
+                <a href="#"><img src="css/images/massage.png" alt="massage"></a>
             </div>
         </div>
         <div class="banner"></div>
     </header>
     <nav class="nav">
-        <div class="menu">
-            <ul>
+        <div class="menuAll">
+            <ul class="menu">
                 <li><a href="#">О КОМПАНИ</a></li>
                 <li><a href="#">ОПЛАТА</a></li>
                 <li><a href="#">ДОСТАВКА</a></li>
@@ -40,190 +43,226 @@
                 <li><a href="#">КОНТАКТЫ</a></li>
             </ul>
             <div class="cart">
-                <img src="" alt="">
-                <p>товаров:</p>
-                <p>0</p>
-                <p>на сумму:</p>
-                <p>0,00 грн.</p>
+                <img src="css/images/cart.png" alt="cart">
+                <p class="cartText">товаров:</p>
+                <p class="cartSummarise">0</p>
+                <p class="cartText">на сумму:</p>
+                <p class="cartSummarise">0,00 грн.</p>
             </div>
         </div>
     </nav>
     <main class="main">
         <div class="form">
-            <form>
+            <form class="car">
 
             </form>
-            <form>
+            <form class="tire">
 
             </form>
-            <form>
+            <form class="drive">
 
             </form>
         </div>
         <div class="content">
             <aside class="aside-left">
                 <div class="categories">
-                    <img src="" alt="">
+                    <div class="list"><img src="css/images/list.png" alt="list"></div>
+                    <h3>КАТАЛОГ ПРОДУКЦИИ:</h3>
+                </div>
+                <div class="categoriesUnder">
+                    <div class="circle">
+                        <div class="inside"></div>
+                    </div>
+                    <h3>ШИНЫ</h3>
+                </div>
+                <div class="listName">
+                    <ul>
+                        <li><a href="#">Наименование 1</a></li>
+                        <li><a href="#">Наименование 2</a></li>
+                        <li><a href="#">Наименование 3</a></li>
+                        <li><a href="#">Наименование 4</a></li>
+                    </ul>
+                </div>
+                <div class="categoriesUnder">
+                    <div class="circle">
+                        <div class="inside"></div>
+                    </div>
+                    <h3>ДИСКИ</h3>
+                </div>
+                <div class="listName">
+                    <ul>
+                        <li><a href="#">Наименование 1</a></li>
+                        <li><a href="#">Наименование 2</a></li>
+                        <li><a href="#">Наименование 3</a></li>
+                        <li><a href="#">Наименование 4</a></li>
+                    </ul>
+                </div>
+                <div class="categoriesUnder">
+                    <div class="circle">
+                        <div class="inside"></div>
+                    </div>
+                    <h3>БОЛТЫ</h3>
+                </div>
+                <div class="listName">
+                    <ul>
+                        <li><a href="#">Наименование 1</a></li>
+                        <li><a href="#">Наименование 2</a></li>
+                        <li><a href="#">Наименование 3</a></li>
+                        <li><a href="#">Наименование 4</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="products">
+                <div class="cartsRow">
+                    <div class="cartsColumn">
+                        <div class="cards">
+                            <h3>Goodyear</h3>
+                            <h4>Ultra Grip Extreme</h4>
+                            <div class="border">
+                                <img src="css/images/tire-1.png" alt="1">
+                            </div>
+                            <p>90.00 грн.</p>
+                        </div>
+                        <div class="cards">
+                            <h3>Goodyear</h3>
+                            <h4>Ultra Grip Extreme</h4>
+                            <div class="border">
+                                <img src="css/images/tire-1.png" alt="1">
+                            </div>
+                            <p>90.00 грн.</p>
+                        </div>
+                        <div class="cards">
+                            <h3>Goodyear</h3>
+                            <h4>Ultra Grip Extreme</h4>
+                            <div class="border">
+                                <img src="css/images/tire-1.png" alt="1">
+                                <img src="" alt="">
+                            </div>
+                            <p>90.00 грн.</p>
+                        </div>
+                    </div>
+                    <div class="cartsColumn">
+                        <div class="cards">
+                            <h3>Nokian</h3>
+                            <h4>Hakkapeliitta R</h4>
+                            <div class="border">
+                                <img src="css/images/tier-2.png" alt="2">
+                            </div>
+                            <p>115.00 грн.</p>
+                        </div>
+                        <div class="cards">
+                            <h3>Nokian</h3>
+                            <h4>Hakkapeliitta R</h4>
+                            <div class="border">
+                                <img src="css/images/tier-2.png" alt="2">
+                            </div>
+                            <p>115.00 грн.</p>
+                        </div>
+                        <div class="cards">
+                            <h3>Nokian</h3>
+                            <h4>Hakkapeliitta R</h4>
+                            <div class="border">
+                                <img src="css/images/tier-2.png" alt="2">
+                            </div>
+                            <p>115.00 грн.</p>
+                        </div>
+                    </div>
+                    <div class="cartsColumn">
+                        <div class="cards">
+                            <h3>Hankook</h3>
+                            <h4>K 708 155/65 R14 </h4>
+                            <div class="border">
+                                <img src="css/images/tier-3.png" alt="3">
+                            </div>
+                            <p>393.00 грн.</p>
+                        </div>
+                        <div class="cards">
+                            <h3>Hankook</h3>
+                            <h4>K 708 155/65 R14 </h4>
+                            <div class="border">
+                                <img src="css/images/tier-3.png" alt="3">
+                            </div>
+                            <p>393.00 грн.</p>
+                        </div>
+                        <div class="cards">
+                            <h3>Hankook</h3>
+                            <h4>K 708 155/65 R14 </h4>
+                            <div class="border">
+                                <img src="css/images/tier-3.png" alt="3">
+                            </div>
+                            <p>393.00 грн.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="aside-right">
+                <div class="categories">
+                    <div class="list"><img src="css/images/list.png" alt="list"></div>
                     <h3>КАТАЛОГ ПРОДУКЦИИ:</h3>
                 </div>
                 <div>
-                    <div class="categories">
+                    <div class="categoriesUnder">
                         <div class="circle">
-                            <h3>ШИНЫ</h3>
+                            <div class="inside"></div>
                         </div>
-                    </div>
-                    <ul>
-                        <li><a href="#">Наименование 1</a></li>
-                        <li><a href="#">Наименование 2</a></li>
-                        <li><a href="#">Наименование 3</a></li>
-                        <li><a href="#">Наименование 4</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <div class="categories">
-                        <div class="circle">
-                            <h3>ДИСКИ</h3>
-                        </div>
-                    </div>
-                    <ul>
-                        <li><a href="#">Наименование 1</a></li>
-                        <li><a href="#">Наименование 2</a></li>
-                        <li><a href="#">Наименование 3</a></li>
-                        <li><a href="#">Наименование 4</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <div class="categories">
-                        <div class="circle">
-                            <h3>БОЛТЫ</h3>
-                        </div>
-                    </div>
-                    <ul>
-                        <li><a href="#">Наименование 1</a></li>
-                        <li><a href="#">Наименование 2</a></li>
-                        <li><a href="#">Наименование 3</a></li>
-                        <li><a href="#">Наименование 4</a></li>
-                    </ul>
-                </div>
-        </div>
-        </aside>
-        <div class="products">
-            <div class="cards">
-                <h3>Goodyear</h3>
-                <h4>Ultra Grip Extreme</h4>
-                <div class="border">
-                    <img src="" alt="">
-                </div>
-                <h4>90.00 грн.</h4>
-            </div>
-            <div class="cards">
-                <h3>Goodyear</h3>
-                <h4>Ultra Grip Extreme</h4>
-                <div class="border">
-                    <img src="" alt="">
-                </div>
-                <h4>90.00 грн.</h4>
-            </div>
-            <div class="cards">
-                <h3>Goodyear</h3>
-                <h4>Ultra Grip Extreme</h4>
-                <div class="border">
-                    <img src="" alt="">
-                </div>
-                <h4>90.00 грн.</h4>
-            </div>
-            <div class="cards">
-                <h3>Goodyear</h3>
-                <h4>Ultra Grip Extreme</h4>
-                <div class="border">
-                    <img src="" alt="">
-                </div>
-                <h4>90.00 грн.</h4>
-            </div>
-            <div class="cards">
-                <h3>Goodyear</h3>
-                <h4>Ultra Grip Extreme</h4>
-                <div class="border">
-                    <img src="" alt="">
-                </div>
-                <h4>90.00 грн.</h4>
-            </div>
-            <div class="cards">
-                <h3>Goodyear</h3>
-                <h4>Ultra Grip Extreme</h4>
-                <div class="border">
-                    <img src="" alt="">
-                </div>
-                <h4>90.00 грн.</h4>
-            </div>
-            <div class="cards">
-                <h3>Goodyear</h3>
-                <h4>Ultra Grip Extreme</h4>
-                <div class="border">
-                    <img src="" alt="">
-                </div>
-                <h4>90.00 грн.</h4>
-            </div>
-            <div class="cards">
-                <h3>Goodyear</h3>
-                <h4>Ultra Grip Extreme</h4>
-                <div class="border">
-                    <img src="" alt="">
-                </div>
-                <h4>90.00 грн.</h4>
-            </div>
-            <div class="cards">
-                <h3>Goodyear</h3>
-                <h4>Ultra Grip Extreme</h4>
-                <div class="border">
-                    <img src="" alt="">
-                </div>
-                <h4>90.00 грн.</h4>
-            </div>
-        </div>
-        <aside class="aside-right">
-            <div class="categories">
-                <img src="" alt="">
-                <h3>КАТАЛОГ ПРОДУКЦИИ:</h3>
-            </div>
-            <div>
-                <div class="categories">
-                    <div class="circle">
                         <h3>ШИНЫ</h3>
                     </div>
-                </div>
-                <ul>
-                    <li><a href="#">Наименование 1</a></li>
-                    <li><a href="#">Наименование 2</a></li>
-                    <li><a href="#">Наименование 3</a></li>
-                </ul>
-            </div>
-            <div>
-                <div class="categories">
-                    <div class="circle">
-                        <h3>ДИСКИ</h3>
+                    <div>
+                        <form class="checkbox">
+                            <label>
+                                <input type="checkbox"> Бренд 1
+                            </label>
+                            <label>
+                                <input type="checkbox"> Бренд 2
+                            </label>
+                            <label>
+                                <input type="checkbox"> Бренд 3
+                            </label>
+                        </form>
                     </div>
                 </div>
-                <ul>
-                    <li><a href="#">Наименование 1</a></li>
-                    <li><a href="#">Наименование 2</a></li>
-                    <li><a href="#">Наименование 3</a></li>
-                </ul>
-            </div>
-            <button>ВЫБРАТЬ</button>
-            </div>
-        </aside>
-        <div>
-            <img src="" alt="">
+                <div>
+                    <div class="categoriesUnder">
+                        <div class="circle">
+                            <div class="inside"></div>
+                        </div>
+                        <h3>ДИСКИ</h3>
+                    </div>
+                    <div>
+                        <form class="checkbox">
+                            <label>
+                                <input type="checkbox"> Бренд 1
+                            </label>
+                            <label>
+                                <input type="checkbox"> Бренд 2
+                            </label>
+                            <label>
+                                <input type="checkbox"> Бренд 3
+                            </label>
+                        </form>
+                    </div>
+                </div>
+                <button type="button">ВЫБРАТЬ</button>
+            </aside>
+        </div>
+        <div class="partners">
+            <img src="css/images/partner-01.png" alt="01">
+            <img src="css/images/partner-02.png" alt="02">
+            <img src="css/images/partner-03.png" alt="03">
+            <img src="css/images/partner-04.png" alt="04">
+            <img src="css/images/partner-05.png" alt="05">
+            <img src="css/images/partner-06.png" alt="06">
+            <img src="css/images/partner-07.png" alt="07">
+            <img src="css/images/partner-08.png" alt="08">
         </div>
     </main>
     <footer class="footer">
         <div class="info">
             <ul>
-                <li><a href="#">О компании  | </a></li>
+                <li><a href="#">О компании | </a></li>
                 <li><a href="#">Доставка | </a></li>
-                <li><a href="#">Статьи  | </a></li>
-                <li><a href="#">Контакты  | </a></li> 
+                <li><a href="#">Статьи | </a></li>
+                <li><a href="#">Контакты | </a></li>
             </ul>
         </div>
         <p>Создание сайта © Global Vision</p>

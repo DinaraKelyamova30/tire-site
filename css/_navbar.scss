@@ -1,0 +1,80 @@
+nav {
+    width: 910px;
+    height: 33px;
+    margin: 7px auto;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.75);
+    border: 1px solid #0d1642;
+    border-radius: 5px;
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #000000 0%, #576068 100%);
+
+    .menuAll {
+        display: flex;
+        flex-direction: row;
+
+        .menu {
+            width: 58%;
+            margin: 5px 30px 5px 100px;
+            display: flex;
+            flex-direction: row;
+            align-content: space-around;
+
+            li {
+                list-style-type: none;
+            }
+
+            a {
+                height: 26px;
+                color: #b1bcc0;
+                font-family: "Lucida Sans Unicode";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 25.46px;
+                padding: 0 14px;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            a:hover {
+                width: 125px;
+                height: 26px;
+                background-color: #f60303;
+                border-radius: 12px;
+                background-image: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+                color: #ffffff;
+            }
+        }
+
+
+        .cart {
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+
+            img {
+                width: 21px;
+                height: 17px;
+                margin-top: 6px;
+            }
+
+            .cartText {
+                color: #929b9f;
+                font-family: "Arial";
+                font-size: 11px;
+                font-weight: 400;
+                letter-spacing: 0.44px;
+                margin-left: 5px;
+
+            }
+
+            .cartSummarise {
+                margin: 10px 2px;
+                color: #0d5a8f;
+                font-family: "Arial";
+                font-size: 12px;
+                font-weight: 400;
+                letter-spacing: 0.48px;
+            }
+        }
+    }
+}

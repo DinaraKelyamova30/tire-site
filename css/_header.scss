@@ -1,0 +1,98 @@
+.header {
+    width: 909px;
+    height: 54px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    .cell {
+        display: flex;
+        flex-direction: row;
+
+        .phone {
+            width: 22px;
+            height: 21px;
+            margin: 20px 2px 10px 0px;
+            background-image: url(css/images/phone.png);
+        }
+
+        .text {
+            width: 264px;
+            height: 17px;
+            color: #5e696d;
+            font-family: "Arial";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25.46px;
+        }
+
+    }
+
+    .search {
+        width: 500px;
+        height: 27px;
+        display: flex;
+        flex-direction: row;
+        margin: 17px 5px 5px 5px;
+        border-radius: 3px;
+        box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+        background-color: #b1bcc0;
+        background-image: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+
+        img {
+            margin: 5px 2px 4px 8px;
+        }
+
+        input {
+            width: 113px;
+            height: 15px;
+            border: 1px solid #9ba1a3;
+            background-color: #ffffff;
+            margin: 4px 3px 3px 2px;
+            padding-left: 3px;
+        }
+
+        .enter {
+            width: 109px;
+            height: 10px;
+            margin: 6px 3px;
+            color: #ffffff;
+            font-family: "Lucida Sans Unicode";
+            font-size: 11px;
+            text-decoration: none;
+        }
+
+        .forget-password {
+            width: 94px;
+            height: 13px;
+            margin: 0;
+            padding-left: 5px;
+            color: #bfbfbf;
+            font-family: "Lucida Sans Unicode";
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+
+    .icons {
+        width: 76px;
+        height: 21px;
+        padding-left: 11px;
+        margin: 19px 0 0 10px;
+        border: 1px solid #bdc4c7;
+        border-radius: 10px;
+
+        img {
+            padding: 0 3px;
+        }
+    }
+}
+
+
+.banner {
+    width: 909px;
+    height: 237px;
+    margin: auto;
+    background-image: url(css/images/background-image.png);
+}
