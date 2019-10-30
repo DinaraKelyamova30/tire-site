@@ -231,6 +231,137 @@ nav .menuAll .cart .cartSummarise {
   background-color: #ffffff;
   border-radius: 10px;
   margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form .car .form {
+  width: 160px;
+  margin: 5px 10px;
+}
+
+.form .car .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px;
+  margin-top: -10px;
+}
+
+.form .car .text h1 {
+  width: 200px;
+  color: #154467;
+  font-family: "Arial";
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+}
+
+.form .car .text p {
+  width: 40px;
+  height: 9px;
+  color: #154468;
+  font-family: "Arial";
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.25px;
+  margin-top: 15px;
+  margin-left: 6px;
+}
+
+.form .car .one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form .car .one .oneForm {
+  width: 220px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px;
+}
+
+.form .car .one .oneForm label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #000000;
+  font-family: "Arial";
+  font-size: 9px;
+  font-weight: 800;
+  margin-left: 6px;
+}
+
+.form .car .one .oneForm label p {
+  width: 75px;
+  margin: auto 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.form .car .one .oneForm label p span {
+  color: #77858b;
+  font-size: 8px;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+
+.form .car .one .oneForm label select {
+  margin: 3px auto;
+  width: 105px;
+  height: 17px;
+}
+
+.form .car .one .oneForm label .style {
+  width: 50px;
+  margin: 3px 8px;
+}
+
+.form .car div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: -6px;
+}
+
+.form .car div a {
+  width: 52px;
+  height: 12px;
+  color: #154467;
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: underline;
 }
 
 .form .tire {
@@ -244,6 +375,110 @@ nav .menuAll .cart .cartSummarise {
   margin-right: 15px;
 }
 
+.form .tire .size {
+  margin-top: 20px;
+}
+
+.form .tire h1 {
+  width: 140px;
+  height: 7px;
+  color: #114165;
+  font-family: "Arial";
+  font-size: 12px;
+  font-weight: 800;
+  margin: 0 10px;
+}
+
+.form .tire label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 5px 0 0 7px;
+}
+
+.form .tire label .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form .tire label .column .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+}
+
+.form .tire label .column .row .check {
+  width: 11px;
+  height: 10px;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+          box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+  background-color: #ffffff;
+}
+
+.form .tire label span {
+  width: 29px;
+  height: 6px;
+  color: #000000;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  padding: -10px 10px;
+}
+
+.form .tire label p {
+  width: 45px;
+  height: 17px;
+  color: #000000;
+  font-family: "Arial";
+  font-size: 9px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.form .tire label .r {
+  float: right;
+}
+
+.form .tire label select {
+  width: 52px;
+  height: 17px;
+  margin: 0;
+}
+
+.form .tire label .m {
+  -webkit-box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.31);
+          box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.31);
+  background-color: #ffffff;
+}
+
+.form .tire div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #154467;
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
 .form .drive {
   width: 268px;
   height: 135px;
@@ -252,6 +487,133 @@ nav .menuAll .cart .cartSummarise {
   border: 1px solid #9c9c9d;
   background-color: #ffffff;
   border-radius: 10px;
+}
+
+.form .drive .dr {
+  width: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form .drive .dr select {
+  height: 17px;
+  margin: auto 5px;
+}
+
+.form .drive .dr .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form .drive .dr .search h1 {
+  width: 101px;
+  height: 9px;
+  color: #114165;
+  font-family: "Arial";
+  font-size: 12px;
+  font-weight: 800;
+  margin: 0 5px 15px 9px;
+}
+
+.form .drive .dr .search label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #000000;
+  font-family: "Arial";
+  font-size: 9px;
+  font-weight: 800;
+  margin-left: 6px;
+}
+
+.form .drive .dr .search label p {
+  width: 80px;
+  margin: auto 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.form .drive .dr .search label p span {
+  color: #77858b;
+  font-size: 8px;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+
+.form .drive .dr .dco {
+  width: 70px;
+  padding-left: 30px;
+  margin-top: 5px;
+}
+
+.form .drive .dr .dco label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #000000;
+  font-family: "Arial";
+  font-size: 9px;
+  font-weight: 800;
+  margin-left: 6px;
+}
+
+.form .drive .dr .dco label p {
+  width: 75px;
+  margin: auto 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.form .drive .dr .dco label p span {
+  color: #77858b;
+  font-size: 8px;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+
+.form div {
+  margin-bottom: 0;
+}
+
+.form div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #154467;
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .content {
@@ -596,7 +958,6 @@ nav .menuAll .cart .cartSummarise {
 }
 
 .content .aside-right .checkbox label input {
-  content: "";
   width: 15px;
   height: 15px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -631,6 +992,11 @@ nav .menuAll .cart .cartSummarise {
 
 .partners img {
   margin-right: 12px;
+}
+
+@font-face {
+  src: url("fonts/Lucids-Sans-Unicode.ttf");
+  font-family: "Lucida Sans Unicode";
 }
 
 body {
